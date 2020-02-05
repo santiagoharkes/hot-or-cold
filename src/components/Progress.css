@@ -1,16 +1,15 @@
-.progressBar {
-    margin-top: 50px;
-}
-
 .progressBar__history {
     display: flex;
+    flex-wrap: wrap;
     border: 1px solid white;
     border-radius: 4px;
     min-height: 30px;
+    max-height: 100px;
     padding: 5px;
     list-style: none;
     color: black;
     font-size: 24px;
+    overflow: auto;
 }
 
 .progressBar__history li {
